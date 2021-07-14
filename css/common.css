@@ -1,0 +1,72 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primery-white-color: #ffffff;
+}
+
+body {
+  background-color: var(--primery-white-color);
+  color: var(--primary-text-color);
+}
+
+/* Logo */
+.logo {
+  color: var(--title-text-color);
+}
+.first-part-logo {
+  color: var(--accent-color);
+}
+/* Убрал точки в списке */
+ul {
+  list-style: none;
+}
+
+/* Site nav */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* Auth nav */
+.auth-nav .mail {
+  color: var(--primary-text-color);
+}
+.auth-nav .mail:hover,
+.auth-nav .mail:focus {
+  color: var(--accent-color);
+}
+
+.auth-nav .phone-link {
+  color: var(--primary-text-color);
+}
+
+.auth-nav .phone-link:hover,
+.auth-nav .phone-link:focus {
+  color: var(--accent-color);
+}
+
+.footer-nav .mail-footer {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-nav .mail-footer:hover,
+.footer-nav .mail-footer:focus {
+  color: var(--accent-color);
+}
+
+.footer-nav .footer-phone-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-nav .footer-phone-link:hover,
+.footer-nav .footer-phone-link:focus {
+  color: var(--accent-color);
+}

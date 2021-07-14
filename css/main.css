@@ -1,0 +1,20 @@
+/* Hero */
+.hero-title {
+  color: var(--primery-white-color);
+}
+/* Button */
+
+.button {
+  color: var(--primery-white-color);
+  background-color: var(--accent-color);
+}
+
+/* Section */
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Features */
+.features-list .title {
+  color: var(--title-text-color);
+}
