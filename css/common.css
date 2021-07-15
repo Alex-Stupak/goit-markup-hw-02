@@ -3,6 +3,7 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --primery-white-color: #ffffff;
+  --button-background-color: #f5f4fa;
 }
 
 body {
@@ -52,7 +53,7 @@ ul {
 
 /* Hero */
 .hero-title {
-  color: var(--primery-white-color);
+  color: var(--title-text-color);
 
   font-weight: 900;
   font-size: 44px;
@@ -62,9 +63,6 @@ ul {
   text-transform: uppercase;
 }
 
-.hero-background-color {
-  background-color: #2f303a;
-}
 /* Button */
 
 .button {
@@ -105,10 +103,6 @@ ul {
 
 /* Team */
 
-.team {
-  background-color: #f5f4fa;
-}
-
 /* Features */
 .features-list .title {
   color: var(--title-text-color);
@@ -116,6 +110,12 @@ ul {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+}
+
+/* Footer */
+
+.logo-whtite {
+  color: var(--title-text-color);
 }
 
 /* Auth nav */
@@ -145,7 +145,7 @@ ul {
 .auth-nav .phone-link:focus {
   color: var(--accent-color);
 }
-
+/* Footer nav */
 .footer-nav .mail-footer {
   color: black;
   font-size: 14px;
@@ -180,6 +180,7 @@ ul {
 /* portfolio */
 .button-porfolio {
   color: var(--title-text-color);
+  background-color: var(--button-background-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
