@@ -8,11 +8,17 @@
 body {
   background-color: var(--primery-white-color);
   color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
 }
 
 /* Logo */
 .logo {
   color: var(--title-text-color);
+  font-family: Raleway, cursive;
+
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
 }
 .first-part-logo {
   color: var(--accent-color);
@@ -25,6 +31,12 @@ ul {
 /* Site nav */
 .site-nav .link {
   color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -38,6 +50,11 @@ ul {
 /* Auth nav */
 .auth-nav .mail {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .auth-nav .mail:hover,
 .auth-nav .mail:focus {
@@ -46,6 +63,11 @@ ul {
 
 .auth-nav .phone-link {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .auth-nav .phone-link:hover,
@@ -54,7 +76,11 @@ ul {
 }
 
 .footer-nav .mail-footer {
-  color: rgba(255, 255, 255, 0.6);
+  color: black;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 .footer-nav .mail-footer:hover,
@@ -63,10 +89,19 @@ ul {
 }
 
 .footer-nav .footer-phone-link {
-  color: rgba(255, 255, 255, 0.6);
+  color: black;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 .footer-nav .footer-phone-link:hover,
 .footer-nav .footer-phone-link:focus {
   color: var(--accent-color);
+}
+
+.footer-google-maps {
+  color: black;
+  text-decoration: none;
 }
