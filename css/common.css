@@ -4,6 +4,7 @@
   --accent-color: #2196f3;
   --primery-white-color: #ffffff;
   --button-background-color: #f5f4fa;
+  --background-color-hero: #2f303a;
 }
 
 body {
@@ -53,7 +54,8 @@ ul {
 
 /* Hero */
 .hero-title {
-  color: var(--title-text-color);
+  color: var(--primery-white-color);
+  background-color: var(--background-color-hero);
 
   font-weight: 900;
   font-size: 44px;
@@ -87,6 +89,10 @@ ul {
   text-align: center;
 }
 
+.team-background {
+  background-color: var(--button-background-color);
+}
+
 .section-people {
   color: var(--title-text-color);
 
@@ -101,8 +107,6 @@ ul {
   text-align: center;
 }
 
-/* Team */
-
 /* Features */
 .features-list .title {
   color: var(--title-text-color);
@@ -110,12 +114,6 @@ ul {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-}
-
-/* Footer */
-
-.logo-whtite {
-  color: var(--title-text-color);
 }
 
 /* Auth nav */
@@ -145,13 +143,32 @@ ul {
 .auth-nav .phone-link:focus {
   color: var(--accent-color);
 }
+
+/* Footer */
+
+.footer-background {
+  background-color: var(--background-color-hero);
+}
+
+.logo-whtite {
+  color: var(--primery-white-color);
+}
+
 /* Footer nav */
+
+.footer-color {
+  color: rgba(255, 255, 255, 0.6);
+}
+
 .footer-nav .mail-footer {
-  color: black;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
+}
+
+.removed-italics {
+  font-style: normal;
 }
 
 .footer-nav .mail-footer:hover,
@@ -160,7 +177,6 @@ ul {
 }
 
 .footer-nav .footer-phone-link {
-  color: black;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -173,7 +189,6 @@ ul {
 }
 
 .footer-google-maps {
-  color: black;
   text-decoration: none;
 }
 
